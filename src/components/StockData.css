@@ -1,0 +1,26 @@
+.stock-data input {
+  margin-top: 5em;
+}
+.stock-data .error {
+  color: red;
+  font-size: 0.8em;
+}
+.stock-data ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 0;
+  padding: 0;
+}
+.stock-data ul li {
+  box-shadow: 0px 2px 5px 0px #b2b2b2;
+  display: inline;
+  min-width: 35%;
+  padding: 0.5em;
+  margin-bottom: 5px;
+  border-radius: 2px;
+}
+.stock-data .no-results {
+  margin-top: 5em;
+}
